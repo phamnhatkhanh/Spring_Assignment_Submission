@@ -1,0 +1,33 @@
+Hiện tại chạy được -> chưa hình dung được luồng chạy của nó ntn.
+
+Project:
+  Build phần login
+  Build Dashbroad
+  Tập trung build AssignmentView: 
+    check thao tác ở frontend + token update
+    Lấy ddataa đặc biệt là các enum.
+  Build các View cho các user khác.
+  Tập trung build logic submit.
+=======Task=======
+PrivateRoute: render quá nhiều -> cách nào để tối ưu
+
+AssignmentView: 
+  lưu lại prevAssignmentValue -> (? Chưa bk lưu lại để làm gì
+
+Dropdown: assignment -> tra ve ten
+
+
+======Question======
+BE: 
+  làm sao có thể phần quyền được
+    Chỗ authen spring security.
+  @query ="submit" được ta.
+FE:
+  lấy token and lưu nó ở đâu -> có lưu ở localStorega ko
+
+
+
+
+========
+Quay lại 
+  có lỗi ở review coder -> làm sao fix nó.

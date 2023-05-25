@@ -1,3 +1,62 @@
+.assignment-wrapper {
+  border: 1px dashed lightgray;
+  padding: 2em;
+  border-radius: 1em;
+  margin-top: 2em;
+}
+
+.assignment-wrapper-title {
+  width: min-content !important;
+  margin-top: -2em !important;
+  margin-bottom: 1em !important;
+  background-color: white !important;
+  white-space: nowrap !important;
+}
+
+.comment-bubble {
+  background: #eeeeee;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em 0em;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 5px;
+    max-width: 16%;
+    min-width: 16%;
+    height: auto;
+    position: fixed;  
+}
+
+.nav{
+	display: flex;
+	font-family: "Nexa Bold", Times, sans-serif;
+  min-height: 100px;
+  border-bottom: 1px solid grey;
+}
+
+.NavBar{
+  padding-top: 25px;
+  padding-left: 370px;
+}
+
+.navLink{
+  margin-right: 12px;
+  border: 2px black solid;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +95,4 @@
     transform: rotate(360deg);
   }
 }
+
