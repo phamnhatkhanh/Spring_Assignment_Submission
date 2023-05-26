@@ -11,7 +11,7 @@
     <groupId>com.coderscampus</groupId>
     <artifactId>AssignmentSubmissionApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>back-end</name>
     <description>back-end</description>
     <properties>
