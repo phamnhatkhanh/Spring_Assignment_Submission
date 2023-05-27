@@ -31,3 +31,8 @@ FE:
 ========
 Quay lại 
   có lỗi ở review coder -> làm sao fix nó.
+
+
+  ====mai==
+  1. Thử làm tiếp 2 video nếu hk đặc
+  2. Test thử kiểu proxy mới.

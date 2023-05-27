@@ -41,6 +41,38 @@ services:
     networks:
       - submission-app
 
+  webserver:
+    image: nginx:latest
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    volumes:
+      - ./nginx/conf/:/etc/nginx/conf.d/:ro
+      - ./certbot/www:/var/www/certbot/:ro
+      - ./certbot/conf:/etc/letsencrypt
+    depends_on:
+      - front-end
+    networks:
+      - submission-app
+
+  certbot:
+    image: certbot/certbot:latest
+    volumes:
+      - ./certbot/www/:/var/www/certbot/:rw
+      - ./certbot/conf:/etc/letsencrypt
+    command:
+#      - renew
+       - certonly
+       - --webroot
+       - -w
+       - /var/www/certbot/
+       - --email=trevor@coderscampus.com
+       - --agree-tos
+       - --no-eff-email
+       - -d
+       - cod3rscampus.com
+       
 volumes:
   dbdata:
 
