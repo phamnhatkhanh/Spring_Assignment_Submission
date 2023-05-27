@@ -119,10 +119,10 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `bootcamp_duration_in_weeks`, `cohort_start_date`, `name`, `password`, `username`) VALUES
-(1, NULL, '2023-05-03', 'khanhpn', '$2a$10$vHD3mHOE6GgvBaQM9gDOb.S9lLzKwj7Bxu/gKLFmG5Un15iV1hpDy', 'khanhpn'),
-(2, NULL, '2023-05-12', 'CodeReviewer', '$2a$10$vHD3mHOE6GgvBaQM9gDOb.S9lLzKwj7Bxu/gKLFmG5Un15iV1hpDy', 'code_reviewer'),
-(3, NULL, NULL, 'ADMIN', '$2a$10$vHD3mHOE6GgvBaQM9gDOb.S9lLzKwj7Bxu/gKLFmG5Un15iV1hpDy', 'admin');
+INSERT INTO `users` (`id`, `cohort_start_date`, `name`, `password`, `username`) VALUES
+(1, '2023-05-03', 'khanhpn', '$2a$10$vHD3mHOE6GgvBaQM9gDOb.S9lLzKwj7Bxu/gKLFmG5Un15iV1hpDy', 'khanhpn'),
+(2, '2023-05-12', 'CodeReviewer', '$2a$10$vHD3mHOE6GgvBaQM9gDOb.S9lLzKwj7Bxu/gKLFmG5Un15iV1hpDy', 'code_reviewer'),
+(3, NULL, 'ADMIN', '$2a$10$vHD3mHOE6GgvBaQM9gDOb.S9lLzKwj7Bxu/gKLFmG5Un15iV1hpDy', 'admin');
 
 --
 -- Indexes for dumped tables
